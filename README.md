@@ -1,1 +1,1 @@
-Repository for Course offered by University of Michigan (Coursera)
+Repository for Specialization Course offered by University of Michigan (Coursera)
