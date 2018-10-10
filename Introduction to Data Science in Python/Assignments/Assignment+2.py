@@ -139,6 +139,13 @@ def answer_five():
 # In[9]:
 
 def answer_six():
+	'''copy_df = census_df.copy()
+    copy_df = copy_df.groupby(['STNAME'])
+    states_pop = pd.DataFrame(columns=['pop'])
+    for i, c in copy_df:
+        states_pop.loc[i] = [c.sort_values(by='CENSUS2010POP', ascending=False)[1:4]['CENSUS2010POP'].sum()]
+    top3 = states_pop.nlargest(3,'pop')
+    return list(top3.index)'''
     return "YOUR ANSWER HERE"
 
 
